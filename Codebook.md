@@ -1,89 +1,25 @@
-"x"
-"1" "subject"
-"2" "activity"
-"3" "tbodyaccmeanx"
-"4" "tbodyaccmeany"
-"5" "tbodyaccmeanz"
-"6" "tbodyaccstdx"
-"7" "tbodyaccstdy"
-"8" "tbodyaccstdz"
-"9" "tgravityaccmeanx"
-"10" "tgravityaccmeany"
-"11" "tgravityaccmeanz"
-"12" "tgravityaccstdx"
-"13" "tgravityaccstdy"
-"14" "tgravityaccstdz"
-"15" "tbodyaccjerkmeanx"
-"16" "tbodyaccjerkmeany"
-"17" "tbodyaccjerkmeanz"
-"18" "tbodyaccjerkstdx"
-"19" "tbodyaccjerkstdy"
-"20" "tbodyaccjerkstdz"
-"21" "tbodygyromeanx"
-"22" "tbodygyromeany"
-"23" "tbodygyromeanz"
-"24" "tbodygyrostdx"
-"25" "tbodygyrostdy"
-"26" "tbodygyrostdz"
-"27" "tbodygyrojerkmeanx"
-"28" "tbodygyrojerkmeany"
-"29" "tbodygyrojerkmeanz"
-"30" "tbodygyrojerkstdx"
-"31" "tbodygyrojerkstdy"
-"32" "tbodygyrojerkstdz"
-"33" "tbodyaccmagmean"
-"34" "tbodyaccmagstd"
-"35" "tgravityaccmagmean"
-"36" "tgravityaccmagstd"
-"37" "tbodyaccjerkmagmean"
-"38" "tbodyaccjerkmagstd"
-"39" "tbodygyromagmean"
-"40" "tbodygyromagstd"
-"41" "tbodygyrojerkmagmean"
-"42" "tbodygyrojerkmagstd"
-"43" "fbodyaccmeanx"
-"44" "fbodyaccmeany"
-"45" "fbodyaccmeanz"
-"46" "fbodyaccstdx"
-"47" "fbodyaccstdy"
-"48" "fbodyaccstdz"
-"49" "fbodyaccmeanfreqx"
-"50" "fbodyaccmeanfreqy"
-"51" "fbodyaccmeanfreqz"
-"52" "fbodyaccjerkmeanx"
-"53" "fbodyaccjerkmeany"
-"54" "fbodyaccjerkmeanz"
-"55" "fbodyaccjerkstdx"
-"56" "fbodyaccjerkstdy"
-"57" "fbodyaccjerkstdz"
-"58" "fbodyaccjerkmeanfreqx"
-"59" "fbodyaccjerkmeanfreqy"
-"60" "fbodyaccjerkmeanfreqz"
-"61" "fbodygyromeanx"
-"62" "fbodygyromeany"
-"63" "fbodygyromeanz"
-"64" "fbodygyrostdx"
-"65" "fbodygyrostdy"
-"66" "fbodygyrostdz"
-"67" "fbodygyromeanfreqx"
-"68" "fbodygyromeanfreqy"
-"69" "fbodygyromeanfreqz"
-"70" "fbodyaccmagmean"
-"71" "fbodyaccmagstd"
-"72" "fbodyaccmagmeanfreq"
-"73" "fbodybodyaccjerkmagmean"
-"74" "fbodybodyaccjerkmagstd"
-"75" "fbodybodyaccjerkmagmeanfreq"
-"76" "fbodybodygyromagmean"
-"77" "fbodybodygyromagstd"
-"78" "fbodybodygyromagmeanfreq"
-"79" "fbodybodygyrojerkmagmean"
-"80" "fbodybodygyrojerkmagstd"
-"81" "fbodybodygyrojerkmagmeanfreq"
-"82" "angletbodyaccmeangravity"
-"83" "angletbodyaccjerkmeangravitymean"
-"84" "angletbodygyromeangravitymean"
-"85" "angletbodygyrojerkmeangravitymean"
-"86" "anglexgravitymean"
-"87" "angleygravitymean"
-"88" "anglezgravitymean"
+Codebook for the Getting and cleaning data course project
+===================
+
+This is the list of variables returned by the run_analysis method:
+
+### List of variables
+
+subject:
+
+* Vector of integers.
+* Range of values: from 1 to 30.
+* It represents the list of volunteers that participated in the experiment. 
+
+activity: 
+
+* Vector of factors.
+* Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+* It represents the activities that the volunteers performed.
+
+Rest of variables:
+
+* List of 86 numeric vectors.
+* Each value represents the average of a measurement obtained by a volunteer performing an activity. For each activity there are 86 different measurements enregistered by an accelerometer and a gyroscope.
+* List of variables: tbodyaccmeanx, tbodyaccmeany, tbodyaccmeanz, tbodyaccstdx, tbodyaccstdy, tbodyaccstdz, tgravityaccmeanx, tgravityaccmeany, tgravityaccmeanz, tgravityaccstdx, tgravityaccstdy, tgravityaccstdz, tbodyaccjerkmeanx, tbodyaccjerkmeany, tbodyaccjerkmeanz, tbodyaccjerkstdx, tbodyaccjerkstdy, tbodyaccjerkstdz, tbodygyromeanx, tbodygyromeany, tbodygyromeanz, tbodygyrostdx, tbodygyrostdy, tbodygyrostdz, tbodygyrojerkmeanx, tbodygyrojerkmeany, tbodygyrojerkmeanz, tbodygyrojerkstdx, tbodygyrojerkstdy, tbodygyrojerkstdz, tbodyaccmagmean, tbodyaccmagstd, tgravityaccmagmean, tgravityaccmagstd, tbodyaccjerkmagmean, tbodyaccjerkmagstd, tbodygyromagmean, tbodygyromagstd, tbodygyrojerkmagmean, tbodygyrojerkmagstd
+fbodyaccmeanx, fbodyaccmeany, fbodyaccmeanz, fbodyaccstdx, fbodyaccstdy, fbodyaccstdz, fbodyaccmeanfreqx, fbodyaccmeanfreqy, fbodyaccmeanfreqz, fbodyaccjerkmeanx, fbodyaccjerkmeany, fbodyaccjerkmeanz, fbodyaccjerkstdx, fbodyaccjerkstdy, fbodyaccjerkstdz, fbodyaccjerkmeanfreqx, fbodyaccjerkmeanfreqy, fbodyaccjerkmeanfreqz, fbodygyromeanx, fbodygyromeany, fbodygyromeanz, fbodygyrostdx, fbodygyrostdy, fbodygyrostdz, fbodygyromeanfreqx, fbodygyromeanfreqy, fbodygyromeanfreqz, fbodyaccmagmean, fbodyaccmagstd, fbodyaccmagmeanfreq, fbodybodyaccjerkmagmean, fbodybodyaccjerkmagstd, fbodybodyaccjerkmagmeanfreq, fbodybodygyromagmean, fbodybodygyromagstd, fbodybodygyromagmeanfreq, fbodybodygyrojerkmagmean, fbodybodygyrojerkmagstd, fbodybodygyrojerkmagmeanfreq, angletbodyaccmeangravity, angletbodyaccjerkmeangravitymean, angletbodygyromeangravitymean, angletbodygyrojerkmeangravitymean, anglexgravitymean, angleygravitymean, anglezgravitymean

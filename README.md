@@ -13,4 +13,4 @@ Here is the explanation of the original data as described in their site:
 
 The original data was separated in different files and contained a great amount of information that wasn't needed. After performing several transformations, we have obtained a tidy data set with the average values of the needed measurement for each subject and activity. 
 
-You can find more information about the different variables and the transformations performed in the CodeBook.md file.
+More information about the different variables and the transformations performed can be found in the CodeBook.md file.

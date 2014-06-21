@@ -1,9 +1,41 @@
 Codebook for the Getting and cleaning data course project
 ===================
 
-This is the list of variables returned by the run_analysis method.
+This document contains the transformations performed with the original data set and the list of variables returned by the run_analysis method.
 
-### List of variables
+### Files from the original data set:
+
+These are the original files used to obtain the tidy data set:
+
+* UCI HAR Dataset/features.txt: variable names
+* UCI HAR Dataset/train/X_train.txt: train data set
+* UCI HAR Dataset/train/subject_train.txt: subjects of the train data set
+* UCI HAR Dataset/train/y_train.txt: activities of the train data set
+* UCI HAR Dataset/test/X_test.txt: test data set
+* UCI HAR Dataset/test/subject_test.txt: subjects of the test data set
+* UCI HAR Dataset/test/y_test.txt: activities of the test data set
+* UCI HAR Dataset/activity_labels.txt: activity labels
+
+### Transformations performed:
+
+* Obtaining of the variable names from the UCI HAR Dataset/features.txt file.
+* Cleaning of the variable names (removing of "-()," characters and convert to lowercase).
+* Obtaining of the train data set with the variable names from the UCI HAR Dataset/train/X_train.txt file.
+* Obtaining of the train subjects from the UCI HAR Dataset/train/subject_train.txt file.
+* Obtaining of the train activities from the UCI HAR Dataset/train/y_train.txt file.
+* Binding of the train subjects and activities to the train dataset
+* Obtaining of the test dataset with the variable names from the UCI HAR Dataset/test/X_test.txt file.
+* Obtaining of the test subjects from the UCI HAR Dataset/test/subject_test.txt file.
+* Obtain the test activities from the UCI HAR Dataset/test/y_test.txt file.
+* Binding of the test subjects and activities to the test dataset
+* Combining of the train and test measurements
+* Extraction the subject, the activity, and all mean and std measurements 
+* Obtaining of the average of each variable for each activity and each subject.
+* Obtaining of the activity labels from the UCI HAR Dataset/activity_labels.txt file.
+* Merging of the activity labels
+* Ordering of the columns of the resulting data set
+
+### List of variables returned by the run_analysis method:
 
 subject:
 

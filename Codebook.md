@@ -1,7 +1,7 @@
 Codebook for the Getting and cleaning data course project
 ===================
 
-This is the list of variables returned by the run_analysis method:
+This is the list of variables returned by the run_analysis method.
 
 ### List of variables
 

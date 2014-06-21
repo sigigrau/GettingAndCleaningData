@@ -19,7 +19,7 @@ These are the original files used to obtain the tidy data set:
 ### Transformations performed:
 
 * Obtaining of the variable names from the UCI HAR Dataset/features.txt file.
-* Cleaning of the variable names (removing of "-()," characters and convert to lowercase).
+* Cleaning of the variable names (removing of "-()," characters and conversion to lowercase).
 * Obtaining of the train data set with the variable names from the UCI HAR Dataset/train/X_train.txt file.
 * Obtaining of the train subjects from the UCI HAR Dataset/train/subject_train.txt file.
 * Obtaining of the train activities from the UCI HAR Dataset/train/y_train.txt file.

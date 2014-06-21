@@ -29,7 +29,7 @@ These are the original files used to obtain the tidy data set:
 * Obtain the test activities from the UCI HAR Dataset/test/y_test.txt file.
 * Binding of the test subjects and activities to the test dataset
 * Combining of the train and test measurements
-* Extraction the subject, the activity, and all mean and std measurements 
+* Extraction of the subject, the activity, and all mean and std measurements 
 * Obtaining of the average of each variable for each activity and each subject.
 * Obtaining of the activity labels from the UCI HAR Dataset/activity_labels.txt file.
 * Merging of the activity labels
